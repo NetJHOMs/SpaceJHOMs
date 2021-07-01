@@ -1,7 +1,7 @@
 window.onload = async () => {
 	const app = document.getElementById('app');
 
-	let spaceXData = await fetch('/data.json');
+	let spaceXData = await fetch('./data.json');
 	spaceXData = await spaceXData.json();
 	console.log(spaceXData);
 
